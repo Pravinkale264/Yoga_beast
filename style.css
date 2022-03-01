@@ -1,0 +1,124 @@
+body {
+    background: url('img/bg.png.jpeg');
+    font-family: 'Righteous', cursive;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+.left {
+    position: absolute;
+    left: 35px;
+    top: 10px;
+    border: 4px solid rgb(248, 252, 248);
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+    padding: 8px;
+}
+
+.left div {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.left img {
+    width: 98px;
+    height: 81px;
+
+}
+
+.mid {
+    display: block;
+    border: 5px solid rgb(15, 9, 9);
+    border-radius: 10px;
+    top: 10px;
+    width: 45%;
+    margin: 12px auto;
+    padding: 7px;
+
+}
+
+.right {
+    position: absolute;
+    right: 35px;
+    top: 35px;
+    display: inline-block;
+    /* border: 2px solid black; */
+
+
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+
+    font-size: 25px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 5px 50px;
+    color: black;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: blue;
+}
+
+.btn {
+    padding: 7px 23px;
+    margin: 0px 21px;
+    background-color: rgb(1, 10, 12);
+    color: white;
+    border: 2px solid rgb(13, 16, 228);
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+
+}
+
+.btn:hover {
+    color: red;
+    background-color: gray;
+}
+
+.container {
+    border: 9px solid black;
+    margin: 133px 57%;
+    padding: 12px 19px;
+    width: 34%;
+    border-radius: 62px;
+    color: black;
+    text-align: center;
+}
+
+.form-group input {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    display: block;
+    margin: 10px auto;
+    padding: 15px 7px;
+    width: 62%;
+    border: 3px solid black;
+    border-radius: 13px;
+    font-size: 23px;
+}
+
+.container h1 {
+    font-size: 48px;
+}
+
+.container button {
+    width: 33%;
+}
